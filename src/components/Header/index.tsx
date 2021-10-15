@@ -6,6 +6,8 @@ function Header() {
   return (
     <Container>
   <ul><NavLink title="Home"  path="/" /></ul>
+  <ul><NavLink title="Projetos"  path="/projetos" /></ul>
+
     </Container>
   );
 };

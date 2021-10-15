@@ -6,19 +6,19 @@ interface NavLinkProps {
   }
 
 export const Container = styled.header`
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify: center;
-    height: 4rem;
-    border-bottom: 1px solid ${({theme}) => theme.backgroundLight}
-
-    ul{
-        display: flex;
-        gap: 2rem;
-        align-items: center;
-    }
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 4rem;
+border-bottom: 1px solid ${({ theme }) => theme.backgroundLight};
+ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
 `;
+
 
 export const NavLinkContainer = styled.li<NavLinkProps>`
   a {
